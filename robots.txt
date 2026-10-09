@@ -1,0 +1,6 @@
+# Search engines only read robots.txt at the root of a host (jadebiyi79ja-cyber.github.io/robots.txt).
+# This copy documents the intended rules for the Think and Grow site.
+User-agent: *
+Allow: /
+
+Sitemap: https://jadebiyi79ja-cyber.github.io/think-and-grow/sitemap.xml

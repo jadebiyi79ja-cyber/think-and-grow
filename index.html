@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Think and Grow | Climate change learning for 14–18s</title>
+<meta name="description" content="Short lessons, interactive activities and teacher resources on climate change for UK secondary schools and colleges.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header>
+ <div class="wrap bar">
+  <a class="logo" href="#top">Think <span>and</span> Grow</a>
+  <button id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" aria-label="Main">
+   <ul>
+    <li><a href="#learn">Learn</a></li>
+    <li><a href="#explore">Explore</a></li>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+
+<main id="main">
+<div class="hero" id="top">
+ <div class="wrap">
+  <h1>Understand climate change. Then do something about it.</h1>
+  <p>Short lessons, hands-on activities and classroom resources for students aged 14–18 in UK schools and colleges.</p>
+  <div class="cta">
+   <a class="btn" href="#learn">Start learning</a>
+   <a class="btn alt" href="#resources">I’m a teacher</a>
+  </div>
+ </div>
+ <div class="bands" role="img" aria-label="Decorative bands shading from blue to deep red"></div>
+</div>
+
+<section id="routes" class="wrap" aria-labelledby="routesH">
+ <h2 id="routesH">Choose your route</h2>
+ <div class="grid two">
+  <div class="card route"><h3>Students</h3><p>Work through topics at your own pace, test yourself, and find sources for projects and coursework.</p><a class="btn teal" href="#learn">Go to topics</a></div>
+  <div class="card route t"><h3>Teachers</h3><p>Lesson-ready material with clear learning outcomes and printable sheets for the classroom.</p><a class="btn teal" href="#resources">Go to teacher resources</a></div>
+ </div>
+</section>
+
+<section id="learn" class="tint" aria-labelledby="learnH">
+ <div class="wrap">
+  <h2 id="learnH">Learn</h2>
+  <p>Four short topics. Open a question to read more.</p>
+  <div class="grid four">
+   <article class="card"><h3><a href="climate-basics.html">Climate basics</a></h3>
+    <details><summary>What is the greenhouse effect?</summary><p>Some gases in the atmosphere trap heat that would otherwise escape to space. This natural effect keeps Earth warm enough for life.</p></details>
+    <details><summary>Weather or climate?</summary><p>Weather is what happens day to day. Climate is the pattern over many years.</p></details><p><a class="more" href="climate-basics.html">Read the full topic</a></p></article>
+   <article class="card"><h3><a href="causes.html">Causes</a></h3>
+    <details><summary>Why is it changing now?</summary><p>Burning coal, oil and gas releases extra carbon dioxide, which strengthens the greenhouse effect.</p></details>
+    <details><summary>Other sources</summary><p>Farming, land clearance and waste also release greenhouse gases such as methane.</p></details><p><a class="more" href="causes.html">Read the full topic</a></p></article>
+   <article class="card"><h3><a href="impacts.html">Impacts</a></h3>
+    <details><summary>Who is affected?</summary><p>People, wildlife and places around the world, including the UK, through changes such as heatwaves, flooding and rising seas.</p></details>
+    <details><summary>Why does it matter to me?</summary><p>Choices made in the next few decades shape the world you will live and work in.</p></details><p><a class="more" href="impacts.html">Read the full topic</a></p></article>
+   <article class="card"><h3><a href="solutions.html">Solutions</a></h3>
+    <details><summary>Mitigation or adaptation?</summary><p>Mitigation cuts greenhouse gas emissions. Adaptation prepares communities for changes already happening.</p></details>
+    <details><summary>What can one person do?</summary><p>Travel, food and energy choices all count, and so does talking about it and voting when you can.</p></details><p><a class="more" href="solutions.html">Read the full topic</a></p></article>
+  </div>
+ </div>
+</section>
+
+<section id="explore" class="wrap" aria-labelledby="exH">
+ <h2 id="exH">Explore</h2>
+ <div class="grid two">
+  <div class="card">
+   <h3>Footprint check</h3>
+   <p>Answer three questions for a quick, simple score.</p>
+   <div id="calc">
+    <fieldset><legend>How do you usually travel?</legend>
+     <label class="opt"><input type="radio" name="travel" value="1"> Walk or cycle</label>
+     <label class="opt"><input type="radio" name="travel" value="2"> Bus or train</label>
+     <label class="opt"><input type="radio" name="travel" value="3"> Car</label></fieldset>
+    <fieldset><legend>What do you usually eat?</legend>
+     <label class="opt"><input type="radio" name="food" value="1"> Mostly plant-based</label>
+     <label class="opt"><input type="radio" name="food" value="2"> A mix</label>
+     <label class="opt"><input type="radio" name="food" value="3"> Meat most days</label></fieldset>
+    <fieldset><legend>How much energy does your home use?</legend>
+     <label class="opt"><input type="radio" name="energy" value="1"> Low</label>
+     <label class="opt"><input type="radio" name="energy" value="2"> Medium</label>
+     <label class="opt"><input type="radio" name="energy" value="3"> High</label></fieldset>
+    <button class="btn teal" id="calcBtn" type="button">See my score</button>
+    <div class="out" id="calcOut" aria-live="polite"></div>
+    <p class="small">Prototype scoring for illustration only. The final build will use sourced emission figures.</p>
+   </div>
+  </div>
+  <div class="card">
+   <h3>Quick quiz</h3>
+   <p>Check what you’ve learned.</p>
+   <div id="quiz"></div>
+   <button class="btn teal" id="quizBtn" type="button">Check answers</button>
+   <div class="out" id="quizOut" aria-live="polite"></div>
+  </div>
+ </div>
+</section>
+
+<section id="resources" class="tint" aria-labelledby="resH">
+ <div class="wrap">
+  <h2 id="resH">Resources</h2>
+  <div class="grid two">
+   <div class="card"><h3>For students</h3><p>A glossary of key terms, revision summaries and a list of trusted sources for research.</p><a class="btn teal" href="#contact">Ask for a resource</a></div>
+   <div class="card"><h3>For teachers</h3><p>Lesson plans with learning outcomes, plus printable worksheets that work without a screen.</p><a class="btn teal" href="#contact">Request lesson materials</a></div>
+  </div>
+ </div>
+</section>
+
+<section id="services" class="wrap" aria-labelledby="svH">
+ <h2 id="svH">Services</h2>
+ <div class="grid three">
+  <div class="card"><h3>Classroom resources</h3><p>Ready-to-teach materials for secondary schools and colleges.</p></div>
+  <div class="card"><h3>Interactive learning</h3><p>Activities and quizzes that students can use in lessons or on their own.</p></div>
+  <div class="card"><h3>Support for schools</h3><p>Talk to us about using Think and Grow across a department or year group.</p></div>
+ </div>
+</section>
+
+<section id="about" class="tint" aria-labelledby="abH">
+ <div class="wrap">
+  <h2 id="abH">About Think and Grow</h2>
+  <p>We create educational resources. Our mission is to teach climate change clearly and honestly to young people in UK secondary schools and colleges, and to show them what they can do about it.</p>
+ </div>
+</section>
+
+<section id="contact" class="wrap" aria-labelledby="ctH">
+ <h2 id="ctH">Contact us</h2>
+ <form id="form" novalidate style="max-width:36rem">
+  <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required><p class="err" id="nameE" hidden>Enter your name.</p></div>
+  <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required><p class="err" id="emailE" hidden>Enter a valid email address, like name@example.com.</p></div>
+  <div class="field"><label for="msg">Message</label><textarea id="msg" name="message" required></textarea><p class="err" id="msgE" hidden>Write a short message.</p></div>
+  <button class="btn teal" type="submit">Send message</button>
+  <div class="out" id="formOut" role="status"></div>
+ </form>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <ul><li><a href="#learn">Learn</a></li><li><a href="#explore">Explore</a></li><li><a href="#resources">Resources</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul>
+  <p class="small" style="color:#cfe3d9">Prototype for F164 Website Development. Content is placeholder copy.</p>
+ </div>
+</footer>
+
+<script src="js/menu.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

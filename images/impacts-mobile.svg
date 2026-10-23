@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 540" width="360" height="540">
+ <title>Impacts of climate change</title>
+ <desc>Three groups of impacts: rising temperatures bring heatwaves; changes to water and weather bring heavier rain, flooding and droughts; sea level and ecosystems are affected by rising seas and changing habitats.</desc>
+ <rect width="360" height="540" rx="18" fill="#F7F9F5"/>
+ <g font-family="Segoe UI, system-ui, sans-serif">
+  <g fill="#FFFFFF" stroke="#0E6E6E" stroke-width="2">
+   <rect x="16" y="16" width="328" height="160" rx="14"/>
+   <rect x="16" y="190" width="328" height="160" rx="14"/>
+   <rect x="16" y="364" width="328" height="160" rx="14"/>
+  </g>
+  <!-- thermometer -->
+  <g transform="translate(-14 12) scale(.7)">
+   <rect x="102" y="56" width="20" height="96" rx="10" fill="#DFF3EC" stroke="#0B3D2E" stroke-width="3"/>
+   <rect x="107" y="84" width="10" height="70" fill="#B42318"/>
+   <circle cx="112" cy="162" r="20" fill="#B42318" stroke="#0B3D2E" stroke-width="3"/>
+  </g>
+  <!-- cloud and rain -->
+  <g transform="translate(-151 190) scale(.7)">
+   <path d="M276 130 a26 26 0 0 1 8-50 a34 34 0 0 1 64-6 a26 26 0 0 1 16 56z" fill="#DFF3EC" stroke="#0B3D2E" stroke-width="3"/>
+   <g stroke="#0E6E6E" stroke-width="4" stroke-linecap="round"><path d="M296 146 l-8 20"/><path d="M322 146 l-8 20"/><path d="M348 146 l-8 20"/></g>
+  </g>
+  <!-- waves -->
+  <g transform="translate(-298 344) scale(.7)" fill="none" stroke="#0E6E6E" stroke-width="4" stroke-linecap="round">
+   <path d="M466 110 q18-18 36 0 t36 0 t36 0"/><path d="M466 140 q18-18 36 0 t36 0 t36 0"/><path d="M466 170 q18-18 36 0 t36 0 t36 0"/>
+  </g>
+  <g fill="#0B3D2E" font-size="19" font-weight="700">
+   <text x="124" y="58">Rising</text><text x="124" y="82">temperatures</text>
+   <text x="124" y="232">Water and</text><text x="124" y="256">weather</text>
+   <text x="124" y="406">Sea level and</text><text x="124" y="430">ecosystems</text>
+  </g>
+  <g fill="#1F2933" font-size="17">
+   <text x="124" y="116">Heatwaves</text>
+   <text x="124" y="290">Heavier rain,</text><text x="124" y="312">flooding, droughts</text>
+   <text x="124" y="464">Rising seas,</text><text x="124" y="486">changing habitats</text>
+  </g>
+ </g>
+</svg>

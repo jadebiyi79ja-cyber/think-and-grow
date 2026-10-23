@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 520" width="360" height="520">
+ <title>The greenhouse effect</title>
+ <desc>Sunlight reaches Earth's surface. Heat leaves the surface. Greenhouse gases such as carbon dioxide, methane and water vapour trap some of the heat, and some escapes to space.</desc>
+ <defs>
+  <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#1F2933"/></marker>
+  <marker id="h" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#B42318"/></marker>
+ </defs>
+ <rect width="360" height="520" rx="18" fill="#F7F9F5"/>
+ <g font-family="Segoe UI, system-ui, sans-serif" fill="#1F2933">
+  <circle cx="50" cy="56" r="28" fill="#F2A900"/>
+  <text x="88" y="63" font-size="20" font-weight="700">Sunlight</text>
+  <text x="340" y="132" font-size="17" text-anchor="end">Some heat escapes</text>
+  <text x="340" y="154" font-size="17" text-anchor="end">to space</text>
+  <rect x="0" y="190" width="360" height="92" fill="#DFF3EC"/>
+  <text x="180" y="222" font-size="19" font-weight="700" text-anchor="middle" fill="#0B3D2E">Greenhouse gases</text>
+  <text x="180" y="246" font-size="17" text-anchor="middle" fill="#0B3D2E">carbon dioxide, methane,</text>
+  <text x="180" y="268" font-size="17" text-anchor="middle" fill="#0B3D2E">water vapour</text>
+  <path d="M58 90 L108 436" stroke="#1F2933" stroke-width="4" fill="none" marker-end="url(#a)"/>
+  <path d="M150 440 L198 284" stroke="#B42318" stroke-width="4" fill="none" stroke-dasharray="9 6"/>
+  <path d="M198 284 L244 436" stroke="#B42318" stroke-width="4" fill="none" stroke-dasharray="9 6" marker-end="url(#h)"/>
+  <path d="M322 440 L344 172" stroke="#B42318" stroke-width="4" fill="none" stroke-dasharray="9 6" marker-end="url(#h)"/>
+  <text x="234" y="334" font-size="17">Some heat</text>
+  <text x="234" y="356" font-size="17">is trapped</text>
+  <path d="M0 444 Q180 424 360 444 L360 502 Q360 520 342 520 L18 520 Q0 520 0 502z" fill="#0B3D2E"/>
+  <text x="180" y="476" font-size="18" font-weight="700" text-anchor="middle" fill="#FFFFFF">Heat leaving</text>
+  <text x="180" y="500" font-size="18" font-weight="700" text-anchor="middle" fill="#FFFFFF">Earth's surface</text>
+ </g>
+</svg>

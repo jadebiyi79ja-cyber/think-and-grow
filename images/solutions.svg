@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420">
+ <title>Mitigation and adaptation</title>
+ <desc>Mitigation cuts greenhouse gas emissions, for example renewable energy, better insulation, electric transport and protecting forests. Adaptation prepares for change, for example flood defences, heat-resistant buildings and drought-tolerant crops.</desc>
+ <rect width="640" height="420" rx="20" fill="#F7F9F5"/>
+ <g font-family="Segoe UI, system-ui, sans-serif">
+  <rect x="16" y="24" width="296" height="372" rx="16" fill="#FFFFFF" stroke="#0E6E6E" stroke-width="2"/>
+  <rect x="328" y="24" width="296" height="372" rx="16" fill="#FFFFFF" stroke="#F2A900" stroke-width="2"/>
+  <path d="M16 40 a16 16 0 0 1 16-16 h264 a16 16 0 0 1 16 16 v68 h-296z" fill="#0E6E6E"/>
+  <path d="M328 40 a16 16 0 0 1 16-16 h264 a16 16 0 0 1 16 16 v68 h-296z" fill="#F2A900"/>
+  <text x="164" y="62" font-size="24" font-weight="700" text-anchor="middle" fill="#FFFFFF">Mitigation</text>
+  <text x="164" y="92" font-size="18" text-anchor="middle" fill="#FFFFFF">Cut emissions</text>
+  <text x="476" y="62" font-size="24" font-weight="700" text-anchor="middle" fill="#1F2933">Adaptation</text>
+  <text x="476" y="92" font-size="18" text-anchor="middle" fill="#1F2933">Prepare for change</text>
+  <g fill="#0E6E6E"><circle cx="44" cy="150" r="6"/><circle cx="44" cy="206" r="6"/><circle cx="44" cy="262" r="6"/><circle cx="44" cy="318" r="6"/></g>
+  <g fill="#0B3D2E"><circle cx="356" cy="150" r="6"/><circle cx="356" cy="206" r="6"/><circle cx="356" cy="262" r="6"/></g>
+  <g fill="#1F2933" font-size="19">
+   <text x="62" y="157">Renewable energy</text>
+   <text x="62" y="213">Better insulation</text>
+   <text x="62" y="269">Electric transport</text>
+   <text x="62" y="325">Protecting forests</text>
+   <text x="374" y="157">Flood defences</text>
+   <text x="374" y="213">Heat-resistant buildings</text>
+   <text x="374" y="269">Drought-tolerant crops</text>
+  </g>
+ </g>
+</svg>

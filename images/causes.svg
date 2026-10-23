@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420">
+ <title>Causes of climate change</title>
+ <desc>Three human activities release greenhouse gases into the atmosphere: fossil fuels release carbon dioxide; land use and farming release methane and nitrous oxide; industry and waste release emissions and methane.</desc>
+ <defs>
+  <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10z" fill="#0E6E6E"/></marker>
+ </defs>
+ <rect width="640" height="420" rx="20" fill="#F7F9F5"/>
+ <g font-family="Segoe UI, system-ui, sans-serif">
+  <g fill="#FFFFFF" stroke="#0E6E6E" stroke-width="2">
+   <rect x="24" y="30" width="300" height="100" rx="14"/>
+   <rect x="24" y="160" width="300" height="100" rx="14"/>
+   <rect x="24" y="290" width="300" height="100" rx="14"/>
+  </g>
+  <g fill="#0B3D2E" font-size="22" font-weight="700">
+   <text x="44" y="72">Fossil fuels</text>
+   <text x="44" y="202">Land use and farming</text>
+   <text x="44" y="332">Industry and waste</text>
+  </g>
+  <g fill="#1F2933" font-size="18">
+   <text x="44" y="104">Carbon dioxide</text>
+   <text x="44" y="234">Methane, nitrous oxide</text>
+   <text x="44" y="364">Emissions, methane</text>
+  </g>
+  <g stroke="#0E6E6E" stroke-width="4" fill="none" marker-end="url(#a)">
+   <path d="M330 80 Q380 80 410 170"/>
+   <path d="M330 210 L404 210"/>
+   <path d="M330 340 Q380 340 410 250"/>
+  </g>
+  <rect x="416" y="110" width="200" height="200" rx="100" fill="#0B3D2E"/>
+  <g fill="#FFFFFF" font-size="20" font-weight="700" text-anchor="middle">
+   <text x="516" y="196">Greenhouse</text>
+   <text x="516" y="222">gases in the</text>
+   <text x="516" y="248">atmosphere</text>
+  </g>
+ </g>
+</svg>

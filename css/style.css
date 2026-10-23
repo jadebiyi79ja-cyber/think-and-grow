@@ -54,6 +54,7 @@ nav.open{display:block}
 .hero h1{color:#fff;font-size:clamp(2.75rem,1.2rem + 5vw,6rem);line-height:.95;letter-spacing:-.04em;max-width:17ch;margin:0 auto;text-shadow:0 2px 30px rgba(0,0,0,.35)}
 .hero h1 .accent{color:var(--amber)}
 .hero p{font-size:clamp(1.125rem,1rem + .5vw,1.375rem);color:#e6f2ec;max-width:38rem;margin:2rem auto 0;text-shadow:0 1px 12px rgba(0,0,0,.45)}
+.nowrap{white-space:nowrap}
 .cta{display:flex;flex-wrap:wrap;justify-content:center;gap:.75rem 1rem;margin:3rem 0 0}
 .hero .btn{min-height:56px;padding:1rem 2.25rem;font-size:1.0625rem}
 /* decorative colour bands: illustrative only, not real data */

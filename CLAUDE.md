@@ -52,7 +52,7 @@ The Word planning document has no sections yet for P2 hosting, P5 assets list, M
 
 ## Open data tasks
 1. **Journey comparison** to replace the simple footprint score. Use only figures read from the official 2026 UK government GHG conversion factors workbook (gov.uk "Greenhouse gas reporting: conversion factors 2026", full set, sheet "Business travel- land"). Put figures in `js/factors.js` with edition, sheet and cell in comments. Do not use third-party websites: they mix 2025 and 2026 values. Verified so far: UK grid electricity including grid losses is 0.14396 kg CO2e per kWh (2026 methodology paper, Table 9). Per-km car, bus and rail figures are NOT yet verified. Food is not in these factors, so it stays out of any scored result.
-2. **Temperature timeline** (planned, not built): NASA GISTEMP global annual anomalies. Download the data and show the source URL and access date on the page.
+2. **Temperature timeline** (built on `climate-basics.html`, waiting for data): uses Chart.js 4.4.1, self-hosted in `js/lib` with its MIT licence (this is the D4/M1 library, approved by the learner on 24 November 2026). It stays hidden until `js/temperature-data.js` is filled from the NASA GISTEMP v4 `GLB.Ts+dSST.csv` (J-D column), with the access date and baseline taken from that file.
 3. **Fonts:** add the WOFF2 files to `/fonts`, then enable the `@font-face` block in `css/style.css` by deleting the two marker lines.
 
 ## Rules

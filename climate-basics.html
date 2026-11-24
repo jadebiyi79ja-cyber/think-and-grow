@@ -67,6 +67,21 @@
 <p>Weather is what you see today: rain, sun or wind. Climate is the average pattern over decades. One cold day does not disprove climate change, just as one hot day does not prove it.</p>
 <h2>How scientists know</h2>
 <p>Scientists combine thermometer records, satellites, ocean measurements and evidence from ice and tree rings. Different teams around the world reach the same broad conclusions.</p>
+<h2 id="timeline-heading">Temperature timeline</h2>
+<p>This chart shows how much warmer or cooler each year was than a fixed baseline average. Choose a time period to zoom in.</p>
+<div class="timeline" id="timeline" hidden>
+ <div class="range" role="group" aria-label="Time period">
+  <button type="button" class="chip" data-from="1880" aria-pressed="true">All years</button>
+  <button type="button" class="chip" data-from="1950" aria-pressed="false">Since 1950</button>
+  <button type="button" class="chip" data-from="2000" aria-pressed="false">Since 2000</button>
+ </div>
+ <div class="chart-box"><canvas id="tlChart" role="img" aria-labelledby="timeline-heading" aria-describedby="tlStatus"></canvas></div>
+ <details><summary>Show the numbers as a table</summary>
+  <table class="data"><caption class="small">Global average temperature difference by year</caption><thead><tr><th scope="col">Year</th><th scope="col">Difference</th></tr></thead><tbody id="tlRows"></tbody></table>
+ </details>
+ <p class="small" id="tlSource"></p>
+</div>
+<p class="out" id="tlStatus" aria-live="polite"></p>
 <h2>Key terms</h2>
 <ul><li>Greenhouse gas: a gas that traps heat in the atmosphere.</li><li>Climate: the typical weather pattern of a place over many years.</li><li>Global warming: the rise in average global surface temperature.</li></ul>
 <h2>Where to read more</h2>
@@ -82,5 +97,8 @@
 </footer>
 
 <script src="js/menu.js" defer></script>
+<script src="js/lib/chart-4.4.1.umd.min.js" defer></script>
+<script src="js/temperature-data.js" defer></script>
+<script src="js/timeline.js" defer></script>
 </body>
 </html>

@@ -130,3 +130,13 @@ footer li a:hover{text-decoration:underline}
 .src li a:hover{border-color:var(--teal)}
 nav a,footer li a,.src li a{min-width:44px;justify-content:center}
 .logo{gap:.3em}
+/* temperature timeline (Chart.js) */
+.timeline{margin:1.5rem 0 1rem;padding:1.25rem;background:#fff;border:1px solid rgba(11,61,46,.08);border-radius:var(--radius);box-shadow:var(--shadow)}
+.range{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}
+.chip{min-height:44px;min-width:44px;padding:0 1rem;border:2px solid var(--teal);border-radius:999px;background:#fff;color:var(--teal);font:700 1rem var(--head);cursor:pointer}
+.chip[aria-pressed=true]{background:var(--teal);color:#fff}
+.chart-box{position:relative;height:18rem}
+@media(min-width:600px){.chart-box{height:22rem}}
+.data{border-collapse:collapse;margin:.5rem 0 1rem;font-size:1rem}
+.data th,.data td{padding:.3rem .9rem;border-bottom:1px solid #cfdcd5;text-align:left}
+.data td{text-align:right;font-variant-numeric:tabular-nums}
